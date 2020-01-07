@@ -31,8 +31,8 @@ Run the model as follows:
 2)  Modify Block 1 of the file call_eject3dfun.py, to specify the number of block to simulate, and the range of sizes, velocities, and trajectory angles simulated.  Block 1 of call_eject3dfun.py is given below.
 
   ###################################################################################################
-  #  BLOCK 1.  PARAMETERS THAT DEFINE THE RANGE AND DISTRIBUTION OF INITIAL BLOCK SIZES, SHAPES,
-  #            EJECTION VELOCITIES, AND TRAJECTORY ANGLES
+  #BLOCK 1.  PARAMETERS THAT DEFINE THE RANGE AND DISTRIBUTION OF INITIAL BLOCK SIZES, SHAPES,
+  #          EJECTION VELOCITIES, AND TRAJECTORY ANGLES
 
   #The values below define the mean and standard
   #deviation of a Gaussian distribution of values.
@@ -67,7 +67,7 @@ Run the model as follows:
   dragtypes = ['hicube', 'locube', 'sphere', 'shell']
   #To change the drag types considered, modify the elements of dragtypes.
   #For example, to consider only "shell" types, uncomment the line below, and comment out
-  # the line above.
+  #the line above.
   #dragtypes = ['shell', 'shell', 'shell', 'shell']
 
   ###################################################################################################
