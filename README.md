@@ -30,9 +30,9 @@ Run the model as follows:
                                     
 2)  Modify Block 1 of the file call_eject3dfun.py, to specify the number of block to simulate, and the range of sizes, velocities, and trajectory angles simulated.  Block 1 of call_eject3dfun.py is given below.
 
-  ###################################################################################################
+  #########################################################################################
   #BLOCK 1.  PARAMETERS THAT DEFINE THE RANGE AND DISTRIBUTION OF INITIAL BLOCK SIZES, SHAPES,
-  #          EJECTION VELOCITIES, AND TRAJECTORY ANGLES
+  #EJECTION VELOCITIES, AND TRAJECTORY ANGLES
 
   #The values below define the mean and standard
   #deviation of a Gaussian distribution of values.
